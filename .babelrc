@@ -1,0 +1,10 @@
+{
+    "presets":[
+        "env",
+        "react"
+    ],
+    "plugins": [
+        "transform-class-properties",     //es6 class properties: no need to use constructor
+        "transform-object-rest-spread"
+    ]
+}
