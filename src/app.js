@@ -12,6 +12,8 @@ import 'react-dates/lib/css/_datepicker.css';
 
 const store = configureStore();
 
+console.log('test');
+
 //provider is used to provide the store value to all the components
 const jsx = (
     <Provider store={store}>      
