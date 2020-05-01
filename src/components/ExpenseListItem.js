@@ -1,7 +1,6 @@
 import React from 'react';
 import moment from 'moment';
 import numeral from 'numeral';
-import { removeExpense} from '../actions/expenses';
 import { Link } from 'react-router-dom';
  
 
@@ -17,7 +16,4 @@ const ExpenseListItem = ({ id, description, amount, createdAt }) => (
         </p>
     </div>
 );
-
-
-
 export default ExpenseListItem;
