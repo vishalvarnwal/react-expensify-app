@@ -97,7 +97,7 @@ import * as firebase from 'firebase';
   // //   const value = snapshot.val();
   // //   console.log(value);
   // // }, (e) => {
-  // //   console.log("error in data fatchinh: ", e)
+  // //   console.log("error in data fatching: ", e)
   // // });
 
   // // setTimeout(() => {
