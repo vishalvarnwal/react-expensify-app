@@ -6,7 +6,7 @@ test('should setup default expense values', () => {
     expect(result).toEqual([]);
 })
 
-test('should add expense an expense', () => {
+test('should add expense in expense', () => {
     const action ={
         type: 'ADD_EXPENSE',
         expense: {

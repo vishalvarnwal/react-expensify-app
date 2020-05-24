@@ -11,7 +11,7 @@ beforeAll(() => {
     startRemoveExpense = jest.fn();
     wrapper = shallow(
         <EditExpensePage 
-        startEditExpense={startEditExpense} 
+            startEditExpense={startEditExpense} 
             history={history} 
             startRemoveExpense={startRemoveExpense}
             expense={expenses[2]}
