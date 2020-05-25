@@ -1,0 +1,25 @@
+.box-layout {
+    background: url('/images/bg.jpg');   
+    background-size: cover;    //will adjust one picture into desired space
+    height: 100vh;  //viewport height - will adjust in screen according to amount 100 means whole vertical screen
+    width: 100vw;   //viewport width - will adjust in screen according to amount 100 means whole horizontal screen
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.box-layout__box {
+    background: fade-out($color: white, $amount: .3);
+    border-radius: 3px;
+    padding: $l-size $m-size;
+    text-align: center;
+    width: 25rem;
+
+}
+
+.box-layout__title {
+    margin: 0 0 $m-size 0;
+    line-height: 1;
+}
