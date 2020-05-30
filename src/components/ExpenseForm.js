@@ -78,7 +78,6 @@ export default class ExpenseForm extends React.Component {
                     className="text-inputs"
                     type = 'number'
                     placeholder = 'amount'
-                    autoFocus
                     value = {this.state.amount}
                     onChange = {this.onAmountChange}
                 />
